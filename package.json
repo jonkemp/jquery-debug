@@ -1,0 +1,18 @@
+{
+  "name": "jquery-debug",
+  "version": "1.0.0",
+  "description": "When a jQuery selector returns no results, this plugin will throw an error, rather than fail silently.",
+  "main": "jquery-debug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "jonkemp/jquery-debug",
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "jquery",
+    "debug"
+  ],
+  "author": "Jonathan Kemp <kempdogg@gmail.com> (http://jonkemp.com/)",
+  "license": "MIT"
+}
