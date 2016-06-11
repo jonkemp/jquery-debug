@@ -1,6 +1,6 @@
 # jquery-debug
 
-> A plugin that throws an error, rather than fails silently, when a jQuery selector returns no results.
+> A plugin that makes jQuery throw an error, rather than fail silently, when a selector returns no results.
 
 ## What is this useful for ?
 
