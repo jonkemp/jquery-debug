@@ -1,5 +1,6 @@
-(function ($) {
-  'use strict'
+'use strict';
+
+(function($) {
 
   $.fn.extend({
     debug: function() {
@@ -15,7 +16,6 @@
       } catch(e) {
         console.error(e.name + ': ' + e.message);
       }
-
 
       return self;
     }
