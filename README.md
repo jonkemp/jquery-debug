@@ -36,6 +36,12 @@ var element = $('p').debug();
 </html>
 ```
 
+Here's the error message you would see in the browser console.
+
+```
+Error: The jQuery selector 'p' was not found in the context of '#document'.
+```
+
 For a live example, check out the [CodePen](http://codepen.io/jonkemp/pen/PzZdLQ?editors=1010).
 
 ## Contributing
