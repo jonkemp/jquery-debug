@@ -14,6 +14,8 @@ Install with [npm](https://npmjs.org/package/jquery-debug)
 npm install --save jquery-debug
 ```
 
+Check out this article for more information on [how to use jQuery plugins with npm](http://blog.npmjs.org/post/112064849860/using-jquery-plugins-with-npm).
+
 ## Usage
 
 ```html
