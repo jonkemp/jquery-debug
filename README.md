@@ -8,9 +8,35 @@ Save tons of time and frustration debugging jQuery!
 
 ## Install
 
-Install with npm
+Install with [npm](https://npmjs.org/package/jquery-debug)
+
+```bash
+npm install --save jquery-debug
+```
 
 ## Usage
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>demo</title>
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+</head>
+<body>
+
+<div>DIV</div>
+
+<script>
+var element = $('p').debug();
+</script>
+
+</body>
+</html>
+```
+
+For a live example, check out the [CodePen](http://codepen.io/jonkemp/pen/PzZdLQ?editors=1010).
 
 ## Contributing
 
