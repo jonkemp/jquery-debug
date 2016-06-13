@@ -1,6 +1,12 @@
 'use strict';
 
-(function($) {
+(function(factory) {
+  if (typeof module === 'object' && typeof module.exports === 'object') {
+    factory(require('jquery'));
+  } else {
+    factory(jQuery);
+  }
+}(function($) {
 
   $.fn.extend({
     debug: function() {
@@ -21,4 +27,4 @@
     }
   });
 
-}(jQuery));
+}));
