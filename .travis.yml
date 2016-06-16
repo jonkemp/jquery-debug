@@ -1,0 +1,20 @@
+sudo: false
+language: node_js
+node_js:
+  - '6'
+  - '5'
+  - '4'
+  - '0.12'
+  - '0.10'
+before_script:
+  - npm install -g gulp
+  - gulp lint
+
+# whitelist
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+    - kempdogg@gmail.com
