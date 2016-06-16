@@ -1,4 +1,4 @@
-# jquery-debug
+# jquery-debug [![Build Status](https://travis-ci.org/jonkemp/jquery-debug.svg?branch=master)](https://travis-ci.org/jonkemp/jquery-debug) 
 
 > A plugin that makes jQuery throw an error, rather than fail silently, when a selector returns no results.
 
