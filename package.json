@@ -4,7 +4,7 @@
   "description": "A plugin that makes jQuery throw an error, rather than fail silently, when a selector returns no results.",
   "main": "jquery-debug.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "files": [
     "jquery-debug.js"
@@ -19,10 +19,14 @@
   "author": "Jonathan Kemp <kempdogg@gmail.com> (http://jonkemp.com/)",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.0.0"
+    "jquery": "2.2.4"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "gulp": "^3.9.1",
-    "gulp-eslint": "^2.0.0"
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha-phantomjs": "^0.11.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
   }
 }

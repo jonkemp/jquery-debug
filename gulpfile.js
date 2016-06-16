@@ -2,7 +2,8 @@
 'use strict';
 
 var gulp = require('gulp'),
-    eslint = require('gulp-eslint');
+    eslint = require('gulp-eslint'),
+    mochaPhantomJS = require('gulp-mocha-phantomjs');
 
 var paths = {
     scripts: ['./*.js', '!./gulpfile.js']
@@ -15,13 +16,17 @@ gulp.task('lint', function () {
         .pipe(eslint.failAfterError());
 });
 
-/*gulp.task('test', function () {
-    return gulp.src('./test/*.js')
-        .pipe(mocha({ reporter: 'spec' }));
+gulp.task('test', function () {
+    return gulp.src('testrunner.html')
+      .pipe(mochaPhantomJS({
+        phantomjs: {
+          useColors:true
+        }
+      }));
 });
 
 gulp.task('watch', function () {
     gulp.watch(paths.scripts, ['lint', 'test']);
 });
 
-gulp.task('default', ['lint', 'test', 'watch']);*/
+gulp.task('default', ['lint', 'test', 'watch']);
