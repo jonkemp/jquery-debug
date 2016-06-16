@@ -1,4 +1,4 @@
-# jquery-debug [![Build Status](https://travis-ci.org/jonkemp/jquery-debug.svg?branch=master)](https://travis-ci.org/jonkemp/jquery-debug) 
+# jquery-debug [![Build Status](https://travis-ci.org/jonkemp/jquery-debug.svg?branch=master)](https://travis-ci.org/jonkemp/jquery-debug)
 
 > A plugin that makes jQuery throw an error, rather than fail silently, when a selector returns no results.
 
@@ -24,7 +24,7 @@ Check out this article for more information on [how to use jQuery plugins with n
 <head>
   <meta charset="utf-8">
   <title>demo</title>
-  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 </head>
 <body>
 
