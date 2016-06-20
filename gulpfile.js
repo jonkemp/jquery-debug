@@ -29,4 +29,4 @@ gulp.task('watch', function () {
     gulp.watch(paths.scripts, ['lint', 'test']);
 });
 
-gulp.task('default', ['lint', 'test', 'watch']);
+gulp.task('default', ['lint', 'test']);
