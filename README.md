@@ -6,6 +6,10 @@
 
 Save tons of time and frustration debugging jQuery!
 
+## Additional information
+- Compatible with jQuery 1.x-2.x. Not compatible with 3.0 yet.
+- Not for use in production (obviously).
+
 ## Install
 
 Install with [npm](https://npmjs.org/package/jquery-debug)
@@ -41,7 +45,7 @@ var element = $('p').debug();
 Here's the error message you would see in the browser console.
 
 ```
-Error: The jQuery selector 'p' was not found in the context of '#document'.
+jquery-debug: The jQuery selector 'p' was not found in the context of '#document'.
 ```
 
 For a live example, check out the [CodePen](http://codepen.io/jonkemp/pen/PzZdLQ?editors=1010).
