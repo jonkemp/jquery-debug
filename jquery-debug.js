@@ -10,13 +10,18 @@
 
   $.fn.extend({
     debug: function() {
-      var self = this;
+      var self = this,
+        selector,
+        nodeName;
 
       try {
         if (!self.length) {
+          selector = self.selector;
+          nodeName = self.context.nodeName.toLowerCase();
+
           throw {
-            name: 'Error',
-            message: 'The jQuery selector \'' + self.selector + '\' was not found in the context of \'' + self.context.nodeName.toLowerCase() + '\'.'
+            name: 'jquery-debug',
+            message: 'The jQuery selector \'' + selector + '\' was not found in the context of \'' + nodeName + '\'.'
           };
         }
       } catch(e) {

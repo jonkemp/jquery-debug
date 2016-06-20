@@ -22,7 +22,7 @@ describe('jquery-debug', function() {
   });
 
   it('should log an error in the console', function(done) {
-    var errorMsg = 'Error: The jQuery selector \'p\' was not found in the context of \'#document\'.';
+    var errorMsg = 'jquery-debug: The jQuery selector \'p\' was not found in the context of \'#document\'.';
 
     $('p').debug();
 
